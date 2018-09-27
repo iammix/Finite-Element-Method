@@ -34,5 +34,5 @@ public class Jvis extends Applet {
         new J3dScene(this);
 
     }
-
+ 
 }
