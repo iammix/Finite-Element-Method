@@ -1,4 +1,4 @@
-package util;
+package Utilities;
 
 // Gauss integration rule
 public class GaussRule {

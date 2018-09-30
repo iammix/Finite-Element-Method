@@ -1,9 +1,9 @@
-package gener;
+package Generator;
 
-import fea.*;
-import model.*;
-import elem.*;
-import util.*;
+import FiniteElementAnalysis.*;
+import ConbineModel.*;
+import Elements.*;
+import Utilities.*;
 
 // Paste two meshes.
 // Input: modelNameA - name of first mesh to be pasted;

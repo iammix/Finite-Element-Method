@@ -1,8 +1,8 @@
 package visual;
 
-import model.*;
-import util.*;
-import elem.Element;
+import ConbineModel.*;
+import Utilities.*;
+import Elements.Element;
 
 import javax.vecmath.*;
 

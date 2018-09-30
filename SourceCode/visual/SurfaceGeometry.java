@@ -1,6 +1,6 @@
 package visual;
 
-import model.*;
+import ConbineModel.*;
 
 import java.util.*;
 

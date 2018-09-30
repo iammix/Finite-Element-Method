@@ -1,8 +1,8 @@
-package solver;
+package Solvers;
 
-import elem.*;
-import model.*;
-import fea.FE;
+import Elements.*;
+import ConbineModel.*;
+import FiniteElementAnalysis.FE;
 
 // Solution of the global equation system
 public abstract class Solver {

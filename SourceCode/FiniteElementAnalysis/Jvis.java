@@ -1,4 +1,4 @@
-package fea;
+package FiniteElementAnalysis;
 
 import visual.*;
 import util.*;
@@ -15,13 +15,13 @@ public class Jvis extends Applet {
 
         if (args.length == 0) {
             System.out.println(
-                    "Usage: java fea.Jvis FileIn \n");
+                    "Usage: java FiniteElementAnalysis.Jvis FileIn \n");
             return;
         }
         FE.main = FE.JVIS;
 
         RD = new FeScanner(args[0]);
-        System.out.println("fea.Jvis: Visualization." +
+        System.out.println("FiniteElementAnalysis.Jvis: Visualization." +
                 " Data file: " + args[0]);
 
         new MainFrame(new Jvis(), 800, 600);
@@ -34,5 +34,5 @@ public class Jvis extends Applet {
         new J3dScene(this);
 
     }
- 
+
 }

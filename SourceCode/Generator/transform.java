@@ -1,8 +1,8 @@
-package gener;
+package Generator;
 
-import model.*;
-import util.*;
-import fea.*;
+import ConbineModel.*;
+import Utilities.*;
+import FiniteElementAnalysis.*;
 
 // Make transformations for a specified model.
 // Input: modelName - name of the finite element model;

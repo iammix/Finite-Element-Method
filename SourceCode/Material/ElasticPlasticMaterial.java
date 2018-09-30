@@ -1,8 +1,8 @@
-package material;
+package Material;
 
-import elem.Element;
-import fea.FE;
-import util.UTIL;
+import Elements.Element;
+import FiniteElementAnalysis.FE;
+import Utilities.UTIL;
 
 //  Constitutive relations for elastic-plastic material
 public class ElasticPlasticMaterial extends ElasticMaterial {

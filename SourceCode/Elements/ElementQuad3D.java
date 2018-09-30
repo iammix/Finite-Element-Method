@@ -1,8 +1,8 @@
-package elem;
+package Elements;
 
-import model.*;
-import material.*;
-import util.*;
+import ConbineModel.*;
+import Material.*;
+import Utilities.*;
 
 // 3D 8-20 node isoparametric brick-type element.
 public class ElementQuad3D extends Element {

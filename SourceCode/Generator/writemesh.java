@@ -1,8 +1,8 @@
-package gener;
+package Generator;
 
-import model.*;
-import fea.*;
-import util.*;
+import ConbineModel.*;
+import FiniteElementAnalysis.*;
+import Utilities.*;
 
 import java.io.PrintWriter;
 

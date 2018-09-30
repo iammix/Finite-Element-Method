@@ -1,7 +1,7 @@
-package model;
+package ConbineModel;
 
-import elem.*;
-import util.*;
+import Elements.*;
+import Utilities.*;
 
 import java.io.PrintWriter;
 import java.util.HashMap;

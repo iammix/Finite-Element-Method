@@ -1,6 +1,6 @@
 package model;
 
-import util.FeScanner;
+import Utilities.FeScanner;
 import java.util.LinkedList;
 
 // Load data

@@ -1,6 +1,6 @@
-package elem;
+package Elements;
 
-import util.UTIL;
+import Utilities.UTIL;
 
 // Quadratic 2D shape functions and their derivatives
 public class ShapeQuad2D {

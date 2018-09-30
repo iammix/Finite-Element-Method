@@ -1,4 +1,4 @@
-package fea;
+package FiniteElementAnalysis;
 
 // Symbolic constants
 public class FE {

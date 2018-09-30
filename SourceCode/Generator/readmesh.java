@@ -1,8 +1,8 @@
-package gener;
+package Generator;
 
-import model.*;
-import fea.Jmgen;
-import util.FeScanner;
+import ConbineModel.*;
+import FiniteElementAnalysis.Jmgen;
+import Utilities.FeScanner;
 
 // Read mesh data from text file.
 // Input: modelName - name of the finite element model;

@@ -1,6 +1,6 @@
 package model;
 
-// Degree of freedom.
+// Creating Degree of freedom.
 public class Dof {
 
     public int dofNum;

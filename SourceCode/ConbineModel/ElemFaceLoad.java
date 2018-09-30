@@ -59,7 +59,7 @@ public class ElemFaceLoad {
                     for (i = 0; i < nNodes; i++)
                         if (faceNodes[i] == iGlob) {
                             EQ = true;
-                            break; 
+                            break;
                         }
                     if (!EQ) continue FACE;
                     perm[inod] = i;

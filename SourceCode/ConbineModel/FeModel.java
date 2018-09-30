@@ -1,9 +1,9 @@
-package model;
+package ConbineModel;
 
-import elem.*;
-import material.*;
-import util.*;
-import solver.*;
+import Elements.*;
+import Materials.*;
+import Utilities.*;
+import Solvers.*;
 
 import java.io.PrintWriter;
 import java.util.ListIterator;

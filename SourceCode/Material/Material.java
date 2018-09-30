@@ -1,6 +1,6 @@
-package material;
+package Material;
 
-import elem.Element;
+import Elements.Element;
 
 // Material constitutive relations
 public class Material {

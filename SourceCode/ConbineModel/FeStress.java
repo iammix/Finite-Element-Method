@@ -1,8 +1,8 @@
-package model;
+package ConbineModel;
 
-import elem.*;
-import material.*;
-import util.*;
+import Elements.*;
+import Material.*;
+import Utilities.*;
 
 import java.io.*;
 import java.util.ListIterator;

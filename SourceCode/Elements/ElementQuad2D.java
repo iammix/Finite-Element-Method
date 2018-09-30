@@ -1,8 +1,8 @@
-package elem;
+package Elements;
 
-import model.*;
-import material.*;
-import util.*;
+import ConbineModel.*;
+import Material.*;
+import Utilities.*;
 
 // 2D quadratic isoparametric element (4-8 nodes)
 class ElementQuad2D extends Element {

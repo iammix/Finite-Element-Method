@@ -1,9 +1,9 @@
-package elem;
+package Elements;
 
-import model.*;
-import material.*;
-import fea.FE;
-import util.UTIL;
+import ConbineModel.*;
+import Material.*;
+import FiniteElementAnalysis.FE;
+import Utilities.UTIL;
 
 // Finite element
 public abstract class Element {

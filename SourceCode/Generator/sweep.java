@@ -1,9 +1,9 @@
-package gener;
+package Generator;
 
-import model.*;
-import fea.*;
-import util.*;
-import elem.*;
+import ConbineModel.*;
+import FiniteElementAnalysis.*;
+import Utilities.*;
+import Elements.*;
 
 // Generate 3D mesh of hexahedral 20-node elements by sweeping
 //     2D mesh of quadrilateral 8-node elements.

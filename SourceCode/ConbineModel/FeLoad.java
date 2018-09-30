@@ -1,8 +1,8 @@
-package model;
+package ConbineModel;
 
-import fea.*;
-import elem.*;
-import util.*;
+import FiniteElementAnalysis.*;
+import Elements.*;
+import Utilities.*;
 
 import java.util.ListIterator;
 import java.util.LinkedList;

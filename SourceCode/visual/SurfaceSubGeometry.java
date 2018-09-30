@@ -1,6 +1,6 @@
 package visual;
 
-import elem.*;
+import Elements.*;
 
 import javax.media.j3d.*;
 import java.util.ListIterator;
@@ -190,7 +190,7 @@ class SurfaceSubGeometry extends SurfaceGeometry {
         triangleArray.setNormalRefFloat(norSurface);
         if (VisData.drawContours)
             triangleArray.setTexCoordRefFloat(0, texSurface);
-        
+
         return triangleArray;
     }
 

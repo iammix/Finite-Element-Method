@@ -1,6 +1,6 @@
-package material;
+package Material;
 
-import elem.Element;
+import Elements.Element;
 
 // Constitutive relations for elastic material
 public class ElasticMaterial extends Material {

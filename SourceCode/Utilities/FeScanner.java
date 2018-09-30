@@ -1,6 +1,6 @@
-package util;
+package Utilities;
 
-import model.Dof;
+import ConbineModel.Dof;
 import java.util.Scanner;
 import java.util.ListIterator;
 import java.io.File;

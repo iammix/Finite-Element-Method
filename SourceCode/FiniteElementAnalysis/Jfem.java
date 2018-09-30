@@ -1,9 +1,9 @@
-package fea;
+package FiniteElementAnalysis;
 
-import elem.*;
-import model.*;
-import solver.*;
-import util.*;
+import Elements.*;
+import ConbineModel.*;
+import Solvers.*;
+import Utilities.*;
 import java.io.*;
 
 // Main class of the finite element processor
@@ -17,7 +17,7 @@ public class Jfem {
 
         if (args.length == 0) {
             System.out.println(
-                   "Usage: java fea.JFEM FileIn [FileOut]\n");
+                   "Usage: java FiniteElementAnalysis.JFEM FileIn [FileOut]\n");
             return;
         }
         FE.main = FE.JFEM;
@@ -27,8 +27,8 @@ public class Jfem {
         fileOut = (args.length==1) ? args[0]+".lst" : args[1];
         PR = new FePrintWriter().getPrinter(fileOut);
 
-        PR.println("fea.JFEM: FE code. Data file: " + args[0]);
-        System.out.println("fea.JFEM: FE code. Data file: "
+        PR.println("FiniteElementAnalysis.JFEM: FE code. Data file: " + args[0]);
+        System.out.println("FiniteElementAnalysis.JFEM: FE code. Data file: "
                 + args[0]);
 
         new Jfem();

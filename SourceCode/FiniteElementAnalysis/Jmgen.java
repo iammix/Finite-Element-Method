@@ -1,6 +1,6 @@
-package fea;
+package FiniteElementAnalysis;
 
-import util.*;
+import Utilities.*;
 
 import java.io.*;
 import java.util.HashMap;
@@ -16,7 +16,7 @@ public class Jmgen {
 
         if (args.length == 0) {
             System.out.println(
-                "Usage: java fea.Jmgen FileIn [FileOut]\n");
+                "Usage: java FiniteElementAnalysis.Jmgen FileIn [FileOut]\n");
             return;
         }
         FE.main = FE.JMGEN;
@@ -27,9 +27,9 @@ public class Jmgen {
                 args[0]+".lst" : args[1];
         PR = new FePrintWriter().getPrinter(fileOut);
 
-        PR.println("fea.Jmgen: Mesh generator. Data file: "
+        PR.println("FiniteElementAnalysis.Jmgen: Mesh generator. Data file: "
                 + args[0]);
-        System.out.println("fea.Jmgen: Mesh generator. "
+        System.out.println("FiniteElementAnalysis.Jmgen: Mesh generator. "
                 + "Data file: " + args[0]);
 
         new Jmgen();

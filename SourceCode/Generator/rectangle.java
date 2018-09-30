@@ -1,9 +1,9 @@
-package gener;
+package Generator;
 
-import model.*;
-import fea.*;
-import util.*;
-import elem.*;
+import ConbineModel.*;
+import FiniteElementAnalysis.*;
+import Utilities.*;
+import Elements.*;
 
 // Generate mesh of quadratic elements inside a rectangle.
 // Input: nx, ny - number of elements along x and y;

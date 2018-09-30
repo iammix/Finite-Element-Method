@@ -1,9 +1,9 @@
-package gener;
+package Generator;
 
-import fea.*;
-import util.*;
-import model.*;
-import elem.*;
+import FiniteElementAnalysis.*;
+import ConbineModel.*;
+import Elements.*;
+import Utilities.*;
 
 // Generate mesh of quadratic elements inside
 //     a macroelement with 8 nodes.

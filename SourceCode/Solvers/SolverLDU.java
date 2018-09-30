@@ -1,8 +1,8 @@
-package solver;
+package Solvers;
 
-import fea.*;
-import model.*;
-import elem.*;
+import FiniteElementAnalysis.*;
+import ConbineModel.*;
+import Elements.*;
 
 import java.util.ListIterator;
 

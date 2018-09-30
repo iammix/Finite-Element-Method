@@ -1,7 +1,7 @@
 package visual;
 
-import elem.*;
-import model.FeModel;
+import Elements.*;
+import ConbineModel.FeModel;
 
 // Result values at nodes of the finite element model.
 public class ResultAtNodes {

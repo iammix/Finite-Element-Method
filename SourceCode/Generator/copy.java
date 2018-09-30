@@ -1,9 +1,9 @@
-package gener;
+package Generator;
 
-import model.*;
-import elem.*;
-import fea.*;
-import util.*;
+import FiniteElementAnalysis.*;
+import ConbineModel.*;
+import Elements.*;
+import Utilities.*;
 
 // Copy model.
 // Input: modelNameA - name of the model to be copied;
